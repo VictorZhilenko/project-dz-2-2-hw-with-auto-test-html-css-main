@@ -83,10 +83,10 @@ select {
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url(./assets/images/Vector.png);
-    padding-left: 20px;
+    padding: 0 20px;
     font-weight: 400;
     font-size: 16px;
-    
+
 }
 
 .books-list {
@@ -94,7 +94,7 @@ select {
     font-weight: 400;
     font-size: 16px;
     
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 .label {
@@ -144,7 +144,7 @@ table {
 
 th, td {
     /* Стили для ячеек таблицы */
-    padding: 11px 0 11px 15px;
+    padding: 12px 15px;
 }
 
 footer {
